@@ -1,3 +1,12 @@
+# Leap (2025 prototype): topic-to-Manim animation generator
+
+**This repository is the retired 2025 open-source prototype. It is not the current Leap product.**
+It turned a one-line topic into a Manim math animation with narration. It does not take documents, has no source checking, and has no SCORM export. It is no longer developed (last commit April 2025).
+
+**Looking for Leap, the product?** Leap at **[askleap.ai](https://askleap.ai)** is a separate, rebuilt product, in private beta. You upload a document (PDF, Word, PowerPoint, Markdown, text) and get a narrated explainer or training video. Leap checks the numbers and quotes in the video against your document, and exports MP4 or a SCORM 1.2 package. It shares a name, a founder (Sid Abhinav) and the original idea with this repo. It shares no code with it.
+
+The rest of this README documents the prototype for anyone who wants to learn from it.
+
 # Update : I've decided to release a series of videos where I build out this project step by step in notebooks, explaining my thought process. 
 I'll update the notebooks in the instructional_notebooks/ folder and post the corresponding links to the videos that walkthrough them:
 
@@ -13,14 +22,9 @@ I'll update the notebooks in the instructional_notebooks/ folder and post the co
 
 - Video: https://youtu.be/gjxDoGyfXV8?si=CCtgLPPQee_RDdU2
 
-# Leap
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://askleap.ai)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-Leap is an open-source tool to generate animations for any topic or question. Currently it uses the Manim animation engine along with synchronized narration, but future plans include integrating it with other libraries as well. A simple alpha is deployed, where you can simply ask your question, and Leap will create a custom, visually engaging animated explanation with synchronized narration tailored to your preferred knowledge level.
-
-**[✨ Try the public alpha at askleap.ai ✨](https://askleap.ai)**
+Leap (prototype) was an open-source tool to generate Manim animations for a topic or question. It used the Manim animation engine along with synchronized narration, but future plans included integrating it with other libraries as well. The prototype's hosted alpha has been replaced by the product above.
 
 
 ##  Table of Contents
@@ -771,7 +775,7 @@ In the spirit of open-source transparency, here are some current limitations and
 ---
 
 <p align="center">
-  <a href="https://askleap.ai">Try Leap</a> •
+  <a href="https://askleap.ai">Leap product (askleap.ai)</a> •
   <a href="https://github.com/sid-thephysicskid/leap/issues">Report Bug</a> •
   <a href="https://github.com/sid-thephysicskid/leap/issues">Request Feature</a>
 </p> 
